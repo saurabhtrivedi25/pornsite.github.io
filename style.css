@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    padding: 5px 25px;
+    transition: all 0.3s ease-out;
+}
+
+.bgchange{
+    background-color: red;
+    box-shadow: 0 0 10px red;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    font-size: 35px;
+    font-weight:600;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;   
+}
+
+.navbar .logo a .glow {
+    transition: color 0.3s ease;
+}
+
+.navbar .logo a:hover .glow{
+   color: rgb(72, 252, 240);
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Ubuntu", "sans-serif";
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: rgb(72, 252, 240);
+}
+
+
+/* home section styling */
+
+.home{
+    background: url(images/mia1.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff
+}
+
+.home .home-content{
+    padding: 170px 130px;
+}
+
+.home .home-content .text-1{
+    font-size: 40px;
+    font-weight:600;
+}
+
+.home .home-content .text-2{
+    font-size: 50px;
+    font-weight:600;
+    color:red;
+}
+
+.home .home-content .text-3{
+    font-size: 30px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.home .home-content .star{
+    color: red;
+}
+
+.home .home-content .hire{
+    font-size: 30px;
+    font-weight:600;
+    border: 3px solid red;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color:red;
+    box-shadow: 0 0 15px red;
+    transition: all 0.5s ease;
+
+}
+
+.home .home-content .hire:hover{
+    color:black;
+    box-shadow: 0 0 100px rgb(0, 0, 0);
+}
+
+.hr{
+    border-top: 5px solid red;
+}
+
+
+/* images section styling */
+
+.teams{
+    padding-top: 20px;
+    background:rgb(216, 197, 197);
+}
+
+.teams .imghead{
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 20px;
+    margin-left: 470px;
+    /* color: red; */
+}
+
+.teams .images{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.teams img{
+    width: 32%;
+    display: inline;
+    /* padding-left:5px; */
+    border-radius: 20px;
+    margin: 10px 5px;
+}
+
+.teams .images img{
+    box-shadow: 0 0 15px black;
+}
+
+
+/* skills section styling */
+
+.skills{
+    /* margin-top: 30px; */
+    height:83vh;
+    background:rgb(216, 197, 197);
+}
+
+.skills .skillhead{
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 20px;
+    margin-left: 500px;
+}
+
+.skills .skillhead h1{
+    padding-top: 30px;
+}
+
+.skills .cards .card{
+    max-width: 30%;
+    width: 330px;
+    height: 280px;
+    display: inline-block;
+    margin-left:27px;
+    margin-top: 15px;
+    background-color:rgb(221, 168, 150);
+    border-radius: 10px;
+}
+
+.skills .cards .card h2{
+    margin-top: 10px;
+    margin-left: 100px;
+    /* color:red; */
+}
+
+.skills .cards .card img{
+    margin-top: 15px;
+    margin-left: 68px;
+    border-radius: 10px;
+}
+
